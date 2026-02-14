@@ -6,3 +6,7 @@ The primary goal of the system is to eliminate manual record-keeping and reduce 
 The application follows a layered architecture pattern consisting of Controller, Service, and Repository layers. RESTful APIs are implemented for communication between the client interface and backend services. Data persistence is handled using Spring Data JPA and Hibernate ORM, ensuring proper database normalization and relationship management between entities such as Customer, Room, Booking, and Payment.
 
 The system supports real-time room availability tracking, automated billing generation, booking management, and structured data storage. Security mechanisms such as authentication and authorization are implemented using Spring Security to prevent unauthorized access.
+
+The project was developed on macOS using an Apple MacBook Air (M1 chip architecture), demonstrating compatibility of Java and Spring Boot applications across ARM-based systems.
+
+Overall, the Hotel Management System provides a scalable, secure, and efficient backend solution suitable for small to medium-scale hotel operations, with future scope for cloud deployment, payment gateway integration, and mobile application expansion.
